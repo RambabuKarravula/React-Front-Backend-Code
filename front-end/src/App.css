@@ -1,0 +1,78 @@
+.nav-ul {
+  padding: 5px;
+  margin: 2px;
+  background-color: skyblue;
+}
+
+.nav-ul li{
+  display: inline;
+  padding: 15px;
+}
+.nav-ul li{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+.nav-ul li {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+.register {
+  margin: 30%;
+}
+
+.inputbox {
+  padding: 10px;
+  display: block;
+  border: 1px solid skyblue;
+  width: 300px;
+  margin: 20px;
+}
+.appButton {
+  margin: 20px;
+  width: 150px;
+  padding: 10px;
+  background-color: skyblue;
+  border: solid black;
+  cursor: pointer;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  background-color: skyblue;
+  width: 100%;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
